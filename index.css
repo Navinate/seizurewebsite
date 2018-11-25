@@ -1,0 +1,30 @@
+/*
+  Name: Mowgli Hovik
+  Date: September 30, 2018
+  Section: CSE 154 AB
+  This is the index.css page for my rainbow website.
+  It aligns the text and sets it to be very readable.
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#screen {
+    min-height: 100%;
+}
+
+#text {
+    font-size: 400%;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+#warning {
+    margin-top: 40%;
+    text-align: center;
+}
